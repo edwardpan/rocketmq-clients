@@ -28,6 +28,7 @@ option java_package = "apache.rocketmq.v2";
 option java_generate_equals_and_hash = true;
 option java_string_check_utf8 = true;
 option java_outer_classname = "MQService";
+option go_package = "github.com/apache/rocketmq/v2";
 
 // Topics are destination of messages to publish to or subscribe from. Similar
 // to domain names, they will be addressable after resolution through the
