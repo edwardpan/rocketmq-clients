@@ -30,7 +30,7 @@ import (
 	innerMD "github.com/edwardpan/rocketmq-clients/golang/v5/metadata"
 	"github.com/edwardpan/rocketmq-clients/golang/v5/pkg/ticker"
 	"github.com/edwardpan/rocketmq-clients/golang/v5/pkg/utils"
-	v2 "github.com/edwardpan/rocketmq-clients/golang/v5/protocol/v2"
+	v2 "github.com/edwardpan/rocketmq-clients/golang/v5/protocol/apache/rocketmq/v2"
 	"github.com/golang/protobuf/proto"
 	"github.com/google/uuid"
 	"go.uber.org/atomic"

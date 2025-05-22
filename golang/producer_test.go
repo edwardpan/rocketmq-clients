@@ -24,7 +24,7 @@ import (
 	"time"
 
 	"github.com/edwardpan/rocketmq-clients/golang/v5/credentials"
-	v2 "github.com/edwardpan/rocketmq-clients/golang/v5/protocol/v2"
+	v2 "github.com/edwardpan/rocketmq-clients/golang/v5/protocol/apache/rocketmq/v2"
 	gomock "github.com/golang/mock/gomock"
 	"github.com/prashantv/gostub"
 )

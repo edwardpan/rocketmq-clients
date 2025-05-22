@@ -26,7 +26,7 @@ import (
 
 	"contrib.go.opencensus.io/exporter/ocagent"
 	"github.com/edwardpan/rocketmq-clients/golang/v5/pkg/utils"
-	v2 "github.com/edwardpan/rocketmq-clients/golang/v5/protocol/v2"
+	v2 "github.com/edwardpan/rocketmq-clients/golang/v5/protocol/apache/rocketmq/v2"
 	"go.opencensus.io/stats"
 	"go.opencensus.io/stats/view"
 	"go.opencensus.io/tag"

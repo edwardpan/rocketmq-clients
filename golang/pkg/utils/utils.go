@@ -35,7 +35,7 @@ import (
 	"time"
 
 	"github.com/edwardpan/rocketmq-clients/golang/v5/metadata"
-	v2 "github.com/edwardpan/rocketmq-clients/golang/v5/protocol/v2"
+	v2 "github.com/edwardpan/rocketmq-clients/golang/v5/protocol/apache/rocketmq/v2"
 	"github.com/klauspost/compress/zstd"
 	"github.com/pierrec/lz4"
 	"github.com/valyala/fastrand"

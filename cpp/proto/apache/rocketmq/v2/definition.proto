@@ -26,6 +26,7 @@ option java_package = "apache.rocketmq.v2";
 option java_generate_equals_and_hash = true;
 option java_string_check_utf8 = true;
 option java_outer_classname = "MQDomain";
+option go_package = "rocketmq/v2";
 
 enum TransactionResolution {
   TRANSACTION_RESOLUTION_UNSPECIFIED = 0;

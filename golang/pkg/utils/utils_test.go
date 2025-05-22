@@ -22,7 +22,7 @@ import (
 	"compress/zlib"
 	"testing"
 
-	v2 "github.com/edwardpan/rocketmq-clients/golang/v5/protocol/v2"
+	v2 "github.com/edwardpan/rocketmq-clients/golang/v5/protocol/apache/rocketmq/v2"
 )
 
 func TestMod(t *testing.T) {

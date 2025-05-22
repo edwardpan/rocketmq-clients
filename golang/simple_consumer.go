@@ -26,7 +26,7 @@ import (
 	"time"
 
 	"github.com/edwardpan/rocketmq-clients/golang/v5/pkg/utils"
-	v2 "github.com/edwardpan/rocketmq-clients/golang/v5/protocol/v2"
+	v2 "github.com/edwardpan/rocketmq-clients/golang/v5/protocol/apache/rocketmq/v2"
 	"google.golang.org/protobuf/types/known/durationpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
