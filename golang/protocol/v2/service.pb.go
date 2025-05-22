@@ -66,7 +66,7 @@ type QueryRouteRequest struct {
 func (x *QueryRouteRequest) Reset() {
 	*x = QueryRouteRequest{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[0]
+		mi := &file_rocketmq_service_proto_msgTypes[0]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -79,7 +79,7 @@ func (x *QueryRouteRequest) String() string {
 func (*QueryRouteRequest) ProtoMessage() {}
 
 func (x *QueryRouteRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[0]
+	mi := &file_rocketmq_service_proto_msgTypes[0]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -92,7 +92,7 @@ func (x *QueryRouteRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use QueryRouteRequest.ProtoReflect.Descriptor instead.
 func (*QueryRouteRequest) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{0}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *QueryRouteRequest) GetTopic() *Resource {
@@ -121,7 +121,7 @@ type QueryRouteResponse struct {
 func (x *QueryRouteResponse) Reset() {
 	*x = QueryRouteResponse{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[1]
+		mi := &file_rocketmq_service_proto_msgTypes[1]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -134,7 +134,7 @@ func (x *QueryRouteResponse) String() string {
 func (*QueryRouteResponse) ProtoMessage() {}
 
 func (x *QueryRouteResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[1]
+	mi := &file_rocketmq_service_proto_msgTypes[1]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -147,7 +147,7 @@ func (x *QueryRouteResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use QueryRouteResponse.ProtoReflect.Descriptor instead.
 func (*QueryRouteResponse) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{1}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *QueryRouteResponse) GetStatus() *Status {
@@ -175,7 +175,7 @@ type SendMessageRequest struct {
 func (x *SendMessageRequest) Reset() {
 	*x = SendMessageRequest{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[2]
+		mi := &file_rocketmq_service_proto_msgTypes[2]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -188,7 +188,7 @@ func (x *SendMessageRequest) String() string {
 func (*SendMessageRequest) ProtoMessage() {}
 
 func (x *SendMessageRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[2]
+	mi := &file_rocketmq_service_proto_msgTypes[2]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -201,7 +201,7 @@ func (x *SendMessageRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SendMessageRequest.ProtoReflect.Descriptor instead.
 func (*SendMessageRequest) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{2}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *SendMessageRequest) GetMessages() []*Message {
@@ -225,7 +225,7 @@ type SendResultEntry struct {
 func (x *SendResultEntry) Reset() {
 	*x = SendResultEntry{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[3]
+		mi := &file_rocketmq_service_proto_msgTypes[3]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -238,7 +238,7 @@ func (x *SendResultEntry) String() string {
 func (*SendResultEntry) ProtoMessage() {}
 
 func (x *SendResultEntry) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[3]
+	mi := &file_rocketmq_service_proto_msgTypes[3]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -251,7 +251,7 @@ func (x *SendResultEntry) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SendResultEntry.ProtoReflect.Descriptor instead.
 func (*SendResultEntry) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{3}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *SendResultEntry) GetStatus() *Status {
@@ -296,7 +296,7 @@ type SendMessageResponse struct {
 func (x *SendMessageResponse) Reset() {
 	*x = SendMessageResponse{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[4]
+		mi := &file_rocketmq_service_proto_msgTypes[4]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -309,7 +309,7 @@ func (x *SendMessageResponse) String() string {
 func (*SendMessageResponse) ProtoMessage() {}
 
 func (x *SendMessageResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[4]
+	mi := &file_rocketmq_service_proto_msgTypes[4]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -322,7 +322,7 @@ func (x *SendMessageResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SendMessageResponse.ProtoReflect.Descriptor instead.
 func (*SendMessageResponse) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{4}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{4}
 }
 
 func (x *SendMessageResponse) GetStatus() *Status {
@@ -352,7 +352,7 @@ type QueryAssignmentRequest struct {
 func (x *QueryAssignmentRequest) Reset() {
 	*x = QueryAssignmentRequest{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[5]
+		mi := &file_rocketmq_service_proto_msgTypes[5]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -365,7 +365,7 @@ func (x *QueryAssignmentRequest) String() string {
 func (*QueryAssignmentRequest) ProtoMessage() {}
 
 func (x *QueryAssignmentRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[5]
+	mi := &file_rocketmq_service_proto_msgTypes[5]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -378,7 +378,7 @@ func (x *QueryAssignmentRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use QueryAssignmentRequest.ProtoReflect.Descriptor instead.
 func (*QueryAssignmentRequest) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{5}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{5}
 }
 
 func (x *QueryAssignmentRequest) GetTopic() *Resource {
@@ -414,7 +414,7 @@ type QueryAssignmentResponse struct {
 func (x *QueryAssignmentResponse) Reset() {
 	*x = QueryAssignmentResponse{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[6]
+		mi := &file_rocketmq_service_proto_msgTypes[6]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -427,7 +427,7 @@ func (x *QueryAssignmentResponse) String() string {
 func (*QueryAssignmentResponse) ProtoMessage() {}
 
 func (x *QueryAssignmentResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[6]
+	mi := &file_rocketmq_service_proto_msgTypes[6]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -440,7 +440,7 @@ func (x *QueryAssignmentResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use QueryAssignmentResponse.ProtoReflect.Descriptor instead.
 func (*QueryAssignmentResponse) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{6}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{6}
 }
 
 func (x *QueryAssignmentResponse) GetStatus() *Status {
@@ -475,7 +475,7 @@ type ReceiveMessageRequest struct {
 func (x *ReceiveMessageRequest) Reset() {
 	*x = ReceiveMessageRequest{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[7]
+		mi := &file_rocketmq_service_proto_msgTypes[7]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -488,7 +488,7 @@ func (x *ReceiveMessageRequest) String() string {
 func (*ReceiveMessageRequest) ProtoMessage() {}
 
 func (x *ReceiveMessageRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[7]
+	mi := &file_rocketmq_service_proto_msgTypes[7]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -501,7 +501,7 @@ func (x *ReceiveMessageRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ReceiveMessageRequest.ProtoReflect.Descriptor instead.
 func (*ReceiveMessageRequest) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{7}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{7}
 }
 
 func (x *ReceiveMessageRequest) GetGroup() *Resource {
@@ -561,7 +561,7 @@ type ReceiveMessageResponse struct {
 func (x *ReceiveMessageResponse) Reset() {
 	*x = ReceiveMessageResponse{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[8]
+		mi := &file_rocketmq_service_proto_msgTypes[8]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -574,7 +574,7 @@ func (x *ReceiveMessageResponse) String() string {
 func (*ReceiveMessageResponse) ProtoMessage() {}
 
 func (x *ReceiveMessageResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[8]
+	mi := &file_rocketmq_service_proto_msgTypes[8]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -587,7 +587,7 @@ func (x *ReceiveMessageResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ReceiveMessageResponse.ProtoReflect.Descriptor instead.
 func (*ReceiveMessageResponse) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{8}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{8}
 }
 
 func (m *ReceiveMessageResponse) GetContent() isReceiveMessageResponse_Content {
@@ -653,7 +653,7 @@ type AckMessageEntry struct {
 func (x *AckMessageEntry) Reset() {
 	*x = AckMessageEntry{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[9]
+		mi := &file_rocketmq_service_proto_msgTypes[9]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -666,7 +666,7 @@ func (x *AckMessageEntry) String() string {
 func (*AckMessageEntry) ProtoMessage() {}
 
 func (x *AckMessageEntry) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[9]
+	mi := &file_rocketmq_service_proto_msgTypes[9]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -679,7 +679,7 @@ func (x *AckMessageEntry) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use AckMessageEntry.ProtoReflect.Descriptor instead.
 func (*AckMessageEntry) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{9}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{9}
 }
 
 func (x *AckMessageEntry) GetMessageId() string {
@@ -709,7 +709,7 @@ type AckMessageRequest struct {
 func (x *AckMessageRequest) Reset() {
 	*x = AckMessageRequest{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[10]
+		mi := &file_rocketmq_service_proto_msgTypes[10]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -722,7 +722,7 @@ func (x *AckMessageRequest) String() string {
 func (*AckMessageRequest) ProtoMessage() {}
 
 func (x *AckMessageRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[10]
+	mi := &file_rocketmq_service_proto_msgTypes[10]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -735,7 +735,7 @@ func (x *AckMessageRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use AckMessageRequest.ProtoReflect.Descriptor instead.
 func (*AckMessageRequest) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{10}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{10}
 }
 
 func (x *AckMessageRequest) GetGroup() *Resource {
@@ -775,7 +775,7 @@ type AckMessageResultEntry struct {
 func (x *AckMessageResultEntry) Reset() {
 	*x = AckMessageResultEntry{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[11]
+		mi := &file_rocketmq_service_proto_msgTypes[11]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -788,7 +788,7 @@ func (x *AckMessageResultEntry) String() string {
 func (*AckMessageResultEntry) ProtoMessage() {}
 
 func (x *AckMessageResultEntry) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[11]
+	mi := &file_rocketmq_service_proto_msgTypes[11]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -801,7 +801,7 @@ func (x *AckMessageResultEntry) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use AckMessageResultEntry.ProtoReflect.Descriptor instead.
 func (*AckMessageResultEntry) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{11}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{11}
 }
 
 func (x *AckMessageResultEntry) GetMessageId() string {
@@ -839,7 +839,7 @@ type AckMessageResponse struct {
 func (x *AckMessageResponse) Reset() {
 	*x = AckMessageResponse{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[12]
+		mi := &file_rocketmq_service_proto_msgTypes[12]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -852,7 +852,7 @@ func (x *AckMessageResponse) String() string {
 func (*AckMessageResponse) ProtoMessage() {}
 
 func (x *AckMessageResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[12]
+	mi := &file_rocketmq_service_proto_msgTypes[12]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -865,7 +865,7 @@ func (x *AckMessageResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use AckMessageResponse.ProtoReflect.Descriptor instead.
 func (*AckMessageResponse) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{12}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{12}
 }
 
 func (x *AckMessageResponse) GetStatus() *Status {
@@ -898,7 +898,7 @@ type ForwardMessageToDeadLetterQueueRequest struct {
 func (x *ForwardMessageToDeadLetterQueueRequest) Reset() {
 	*x = ForwardMessageToDeadLetterQueueRequest{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[13]
+		mi := &file_rocketmq_service_proto_msgTypes[13]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -911,7 +911,7 @@ func (x *ForwardMessageToDeadLetterQueueRequest) String() string {
 func (*ForwardMessageToDeadLetterQueueRequest) ProtoMessage() {}
 
 func (x *ForwardMessageToDeadLetterQueueRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[13]
+	mi := &file_rocketmq_service_proto_msgTypes[13]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -924,7 +924,7 @@ func (x *ForwardMessageToDeadLetterQueueRequest) ProtoReflect() protoreflect.Mes
 
 // Deprecated: Use ForwardMessageToDeadLetterQueueRequest.ProtoReflect.Descriptor instead.
 func (*ForwardMessageToDeadLetterQueueRequest) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{13}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{13}
 }
 
 func (x *ForwardMessageToDeadLetterQueueRequest) GetGroup() *Resource {
@@ -980,7 +980,7 @@ type ForwardMessageToDeadLetterQueueResponse struct {
 func (x *ForwardMessageToDeadLetterQueueResponse) Reset() {
 	*x = ForwardMessageToDeadLetterQueueResponse{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[14]
+		mi := &file_rocketmq_service_proto_msgTypes[14]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -993,7 +993,7 @@ func (x *ForwardMessageToDeadLetterQueueResponse) String() string {
 func (*ForwardMessageToDeadLetterQueueResponse) ProtoMessage() {}
 
 func (x *ForwardMessageToDeadLetterQueueResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[14]
+	mi := &file_rocketmq_service_proto_msgTypes[14]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1006,7 +1006,7 @@ func (x *ForwardMessageToDeadLetterQueueResponse) ProtoReflect() protoreflect.Me
 
 // Deprecated: Use ForwardMessageToDeadLetterQueueResponse.ProtoReflect.Descriptor instead.
 func (*ForwardMessageToDeadLetterQueueResponse) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{14}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{14}
 }
 
 func (x *ForwardMessageToDeadLetterQueueResponse) GetStatus() *Status {
@@ -1028,7 +1028,7 @@ type HeartbeatRequest struct {
 func (x *HeartbeatRequest) Reset() {
 	*x = HeartbeatRequest{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[15]
+		mi := &file_rocketmq_service_proto_msgTypes[15]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -1041,7 +1041,7 @@ func (x *HeartbeatRequest) String() string {
 func (*HeartbeatRequest) ProtoMessage() {}
 
 func (x *HeartbeatRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[15]
+	mi := &file_rocketmq_service_proto_msgTypes[15]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1054,7 +1054,7 @@ func (x *HeartbeatRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use HeartbeatRequest.ProtoReflect.Descriptor instead.
 func (*HeartbeatRequest) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{15}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{15}
 }
 
 func (x *HeartbeatRequest) GetGroup() *Resource {
@@ -1082,7 +1082,7 @@ type HeartbeatResponse struct {
 func (x *HeartbeatResponse) Reset() {
 	*x = HeartbeatResponse{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[16]
+		mi := &file_rocketmq_service_proto_msgTypes[16]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -1095,7 +1095,7 @@ func (x *HeartbeatResponse) String() string {
 func (*HeartbeatResponse) ProtoMessage() {}
 
 func (x *HeartbeatResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[16]
+	mi := &file_rocketmq_service_proto_msgTypes[16]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1108,7 +1108,7 @@ func (x *HeartbeatResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use HeartbeatResponse.ProtoReflect.Descriptor instead.
 func (*HeartbeatResponse) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{16}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{16}
 }
 
 func (x *HeartbeatResponse) GetStatus() *Status {
@@ -1134,7 +1134,7 @@ type EndTransactionRequest struct {
 func (x *EndTransactionRequest) Reset() {
 	*x = EndTransactionRequest{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[17]
+		mi := &file_rocketmq_service_proto_msgTypes[17]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -1147,7 +1147,7 @@ func (x *EndTransactionRequest) String() string {
 func (*EndTransactionRequest) ProtoMessage() {}
 
 func (x *EndTransactionRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[17]
+	mi := &file_rocketmq_service_proto_msgTypes[17]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1160,7 +1160,7 @@ func (x *EndTransactionRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use EndTransactionRequest.ProtoReflect.Descriptor instead.
 func (*EndTransactionRequest) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{17}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{17}
 }
 
 func (x *EndTransactionRequest) GetTopic() *Resource {
@@ -1216,7 +1216,7 @@ type EndTransactionResponse struct {
 func (x *EndTransactionResponse) Reset() {
 	*x = EndTransactionResponse{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[18]
+		mi := &file_rocketmq_service_proto_msgTypes[18]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -1229,7 +1229,7 @@ func (x *EndTransactionResponse) String() string {
 func (*EndTransactionResponse) ProtoMessage() {}
 
 func (x *EndTransactionResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[18]
+	mi := &file_rocketmq_service_proto_msgTypes[18]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1242,7 +1242,7 @@ func (x *EndTransactionResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use EndTransactionResponse.ProtoReflect.Descriptor instead.
 func (*EndTransactionResponse) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{18}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{18}
 }
 
 func (x *EndTransactionResponse) GetStatus() *Status {
@@ -1263,7 +1263,7 @@ type PrintThreadStackTraceCommand struct {
 func (x *PrintThreadStackTraceCommand) Reset() {
 	*x = PrintThreadStackTraceCommand{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[19]
+		mi := &file_rocketmq_service_proto_msgTypes[19]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -1276,7 +1276,7 @@ func (x *PrintThreadStackTraceCommand) String() string {
 func (*PrintThreadStackTraceCommand) ProtoMessage() {}
 
 func (x *PrintThreadStackTraceCommand) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[19]
+	mi := &file_rocketmq_service_proto_msgTypes[19]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1289,7 +1289,7 @@ func (x *PrintThreadStackTraceCommand) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use PrintThreadStackTraceCommand.ProtoReflect.Descriptor instead.
 func (*PrintThreadStackTraceCommand) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{19}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{19}
 }
 
 func (x *PrintThreadStackTraceCommand) GetNonce() string {
@@ -1311,7 +1311,7 @@ type ThreadStackTrace struct {
 func (x *ThreadStackTrace) Reset() {
 	*x = ThreadStackTrace{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[20]
+		mi := &file_rocketmq_service_proto_msgTypes[20]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -1324,7 +1324,7 @@ func (x *ThreadStackTrace) String() string {
 func (*ThreadStackTrace) ProtoMessage() {}
 
 func (x *ThreadStackTrace) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[20]
+	mi := &file_rocketmq_service_proto_msgTypes[20]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1337,7 +1337,7 @@ func (x *ThreadStackTrace) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ThreadStackTrace.ProtoReflect.Descriptor instead.
 func (*ThreadStackTrace) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{20}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{20}
 }
 
 func (x *ThreadStackTrace) GetNonce() string {
@@ -1366,7 +1366,7 @@ type VerifyMessageCommand struct {
 func (x *VerifyMessageCommand) Reset() {
 	*x = VerifyMessageCommand{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[21]
+		mi := &file_rocketmq_service_proto_msgTypes[21]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -1379,7 +1379,7 @@ func (x *VerifyMessageCommand) String() string {
 func (*VerifyMessageCommand) ProtoMessage() {}
 
 func (x *VerifyMessageCommand) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[21]
+	mi := &file_rocketmq_service_proto_msgTypes[21]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1392,7 +1392,7 @@ func (x *VerifyMessageCommand) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use VerifyMessageCommand.ProtoReflect.Descriptor instead.
 func (*VerifyMessageCommand) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{21}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{21}
 }
 
 func (x *VerifyMessageCommand) GetNonce() string {
@@ -1420,7 +1420,7 @@ type VerifyMessageResult struct {
 func (x *VerifyMessageResult) Reset() {
 	*x = VerifyMessageResult{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[22]
+		mi := &file_rocketmq_service_proto_msgTypes[22]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -1433,7 +1433,7 @@ func (x *VerifyMessageResult) String() string {
 func (*VerifyMessageResult) ProtoMessage() {}
 
 func (x *VerifyMessageResult) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[22]
+	mi := &file_rocketmq_service_proto_msgTypes[22]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1446,7 +1446,7 @@ func (x *VerifyMessageResult) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use VerifyMessageResult.ProtoReflect.Descriptor instead.
 func (*VerifyMessageResult) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{22}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{22}
 }
 
 func (x *VerifyMessageResult) GetNonce() string {
@@ -1468,7 +1468,7 @@ type RecoverOrphanedTransactionCommand struct {
 func (x *RecoverOrphanedTransactionCommand) Reset() {
 	*x = RecoverOrphanedTransactionCommand{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[23]
+		mi := &file_rocketmq_service_proto_msgTypes[23]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -1481,7 +1481,7 @@ func (x *RecoverOrphanedTransactionCommand) String() string {
 func (*RecoverOrphanedTransactionCommand) ProtoMessage() {}
 
 func (x *RecoverOrphanedTransactionCommand) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[23]
+	mi := &file_rocketmq_service_proto_msgTypes[23]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1494,7 +1494,7 @@ func (x *RecoverOrphanedTransactionCommand) ProtoReflect() protoreflect.Message 
 
 // Deprecated: Use RecoverOrphanedTransactionCommand.ProtoReflect.Descriptor instead.
 func (*RecoverOrphanedTransactionCommand) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{23}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{23}
 }
 
 func (x *RecoverOrphanedTransactionCommand) GetMessage() *Message {
@@ -1530,7 +1530,7 @@ type TelemetryCommand struct {
 func (x *TelemetryCommand) Reset() {
 	*x = TelemetryCommand{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[24]
+		mi := &file_rocketmq_service_proto_msgTypes[24]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -1543,7 +1543,7 @@ func (x *TelemetryCommand) String() string {
 func (*TelemetryCommand) ProtoMessage() {}
 
 func (x *TelemetryCommand) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[24]
+	mi := &file_rocketmq_service_proto_msgTypes[24]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1556,7 +1556,7 @@ func (x *TelemetryCommand) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use TelemetryCommand.ProtoReflect.Descriptor instead.
 func (*TelemetryCommand) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{24}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{24}
 }
 
 func (x *TelemetryCommand) GetStatus() *Status {
@@ -1677,7 +1677,7 @@ type NotifyClientTerminationRequest struct {
 func (x *NotifyClientTerminationRequest) Reset() {
 	*x = NotifyClientTerminationRequest{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[25]
+		mi := &file_rocketmq_service_proto_msgTypes[25]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -1690,7 +1690,7 @@ func (x *NotifyClientTerminationRequest) String() string {
 func (*NotifyClientTerminationRequest) ProtoMessage() {}
 
 func (x *NotifyClientTerminationRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[25]
+	mi := &file_rocketmq_service_proto_msgTypes[25]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1703,7 +1703,7 @@ func (x *NotifyClientTerminationRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use NotifyClientTerminationRequest.ProtoReflect.Descriptor instead.
 func (*NotifyClientTerminationRequest) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{25}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{25}
 }
 
 func (x *NotifyClientTerminationRequest) GetGroup() *Resource {
@@ -1724,7 +1724,7 @@ type NotifyClientTerminationResponse struct {
 func (x *NotifyClientTerminationResponse) Reset() {
 	*x = NotifyClientTerminationResponse{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[26]
+		mi := &file_rocketmq_service_proto_msgTypes[26]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -1737,7 +1737,7 @@ func (x *NotifyClientTerminationResponse) String() string {
 func (*NotifyClientTerminationResponse) ProtoMessage() {}
 
 func (x *NotifyClientTerminationResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[26]
+	mi := &file_rocketmq_service_proto_msgTypes[26]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1750,7 +1750,7 @@ func (x *NotifyClientTerminationResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use NotifyClientTerminationResponse.ProtoReflect.Descriptor instead.
 func (*NotifyClientTerminationResponse) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{26}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{26}
 }
 
 func (x *NotifyClientTerminationResponse) GetStatus() *Status {
@@ -1778,7 +1778,7 @@ type ChangeInvisibleDurationRequest struct {
 func (x *ChangeInvisibleDurationRequest) Reset() {
 	*x = ChangeInvisibleDurationRequest{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[27]
+		mi := &file_rocketmq_service_proto_msgTypes[27]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -1791,7 +1791,7 @@ func (x *ChangeInvisibleDurationRequest) String() string {
 func (*ChangeInvisibleDurationRequest) ProtoMessage() {}
 
 func (x *ChangeInvisibleDurationRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[27]
+	mi := &file_rocketmq_service_proto_msgTypes[27]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1804,7 +1804,7 @@ func (x *ChangeInvisibleDurationRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ChangeInvisibleDurationRequest.ProtoReflect.Descriptor instead.
 func (*ChangeInvisibleDurationRequest) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{27}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{27}
 }
 
 func (x *ChangeInvisibleDurationRequest) GetGroup() *Resource {
@@ -1855,7 +1855,7 @@ type ChangeInvisibleDurationResponse struct {
 func (x *ChangeInvisibleDurationResponse) Reset() {
 	*x = ChangeInvisibleDurationResponse{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_service_proto_msgTypes[28]
+		mi := &file_rocketmq_service_proto_msgTypes[28]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -1868,7 +1868,7 @@ func (x *ChangeInvisibleDurationResponse) String() string {
 func (*ChangeInvisibleDurationResponse) ProtoMessage() {}
 
 func (x *ChangeInvisibleDurationResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_service_proto_msgTypes[28]
+	mi := &file_rocketmq_service_proto_msgTypes[28]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -1881,7 +1881,7 @@ func (x *ChangeInvisibleDurationResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use ChangeInvisibleDurationResponse.ProtoReflect.Descriptor instead.
 func (*ChangeInvisibleDurationResponse) Descriptor() ([]byte, []int) {
-	return file_service_proto_rawDescGZIP(), []int{28}
+	return file_rocketmq_service_proto_rawDescGZIP(), []int{28}
 }
 
 func (x *ChangeInvisibleDurationResponse) GetStatus() *Status {
@@ -1898,9 +1898,9 @@ func (x *ChangeInvisibleDurationResponse) GetReceiptHandle() string {
 	return ""
 }
 
-var File_service_proto protoreflect.FileDescriptor
+var File_rocketmq_service_proto protoreflect.FileDescriptor
 
-var file_service_proto_rawDesc = []byte{
+var file_rocketmq_service_proto_rawDesc = []byte{
 	0x0a, 0x0d, 0x73, 0x65, 0x72, 0x76, 0x69, 0x63, 0x65, 0x2e, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x12,
 	0x12, 0x61, 0x70, 0x61, 0x63, 0x68, 0x65, 0x2e, 0x72, 0x6f, 0x63, 0x6b, 0x65, 0x74, 0x6d, 0x71,
 	0x2e, 0x76, 0x32, 0x1a, 0x1e, 0x67, 0x6f, 0x6f, 0x67, 0x6c, 0x65, 0x2f, 0x70, 0x72, 0x6f, 0x74,
@@ -2307,19 +2307,19 @@ var file_service_proto_rawDesc = []byte{
 }
 
 var (
-	file_service_proto_rawDescOnce sync.Once
-	file_service_proto_rawDescData = file_service_proto_rawDesc
+	file_rocketmq_service_proto_rawDescOnce sync.Once
+	file_rocketmq_service_proto_rawDescData = file_rocketmq_service_proto_rawDesc
 )
 
-func file_service_proto_rawDescGZIP() []byte {
-	file_service_proto_rawDescOnce.Do(func() {
-		file_service_proto_rawDescData = protoimpl.X.CompressGZIP(file_service_proto_rawDescData)
+func file_rocketmq_service_proto_rawDescGZIP() []byte {
+	file_rocketmq_service_proto_rawDescOnce.Do(func() {
+		file_rocketmq_service_proto_rawDescData = protoimpl.X.CompressGZIP(file_rocketmq_service_proto_rawDescData)
 	})
-	return file_service_proto_rawDescData
+	return file_rocketmq_service_proto_rawDescData
 }
 
-var file_service_proto_msgTypes = make([]protoimpl.MessageInfo, 29)
-var file_service_proto_goTypes = []interface{}{
+var file_rocketmq_service_proto_msgTypes = make([]protoimpl.MessageInfo, 29)
+var file_rocketmq_service_proto_goTypes = []interface{}{
 	(*QueryRouteRequest)(nil),                       // 0: apache.rocketmq.v2.QueryRouteRequest
 	(*QueryRouteResponse)(nil),                      // 1: apache.rocketmq.v2.QueryRouteResponse
 	(*SendMessageRequest)(nil),                      // 2: apache.rocketmq.v2.SendMessageRequest
@@ -2363,7 +2363,7 @@ var file_service_proto_goTypes = []interface{}{
 	(TransactionSource)(0),                          // 40: apache.rocketmq.v2.TransactionSource
 	(*Settings)(nil),                                // 41: apache.rocketmq.v2.Settings
 }
-var file_service_proto_depIdxs = []int32{
+var file_rocketmq_service_proto_depIdxs = []int32{
 	29, // 0: apache.rocketmq.v2.QueryRouteRequest.topic:type_name -> apache.rocketmq.v2.Resource
 	30, // 1: apache.rocketmq.v2.QueryRouteRequest.endpoints:type_name -> apache.rocketmq.v2.Endpoints
 	31, // 2: apache.rocketmq.v2.QueryRouteResponse.status:type_name -> apache.rocketmq.v2.Status
@@ -2444,14 +2444,14 @@ var file_service_proto_depIdxs = []int32{
 	0,  // [0:51] is the sub-list for field type_name
 }
 
-func init() { file_service_proto_init() }
-func file_service_proto_init() {
-	if File_service_proto != nil {
+func init() { file_rocketmq_service_proto_init() }
+func file_rocketmq_service_proto_init() {
+	if File_rocketmq_service_proto != nil {
 		return
 	}
 	file_definition_proto_init()
 	if !protoimpl.UnsafeEnabled {
-		file_service_proto_msgTypes[0].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[0].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*QueryRouteRequest); i {
 			case 0:
 				return &v.state
@@ -2463,7 +2463,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[1].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[1].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*QueryRouteResponse); i {
 			case 0:
 				return &v.state
@@ -2475,7 +2475,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[2].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[2].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*SendMessageRequest); i {
 			case 0:
 				return &v.state
@@ -2487,7 +2487,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[3].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[3].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*SendResultEntry); i {
 			case 0:
 				return &v.state
@@ -2499,7 +2499,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[4].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[4].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*SendMessageResponse); i {
 			case 0:
 				return &v.state
@@ -2511,7 +2511,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[5].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[5].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*QueryAssignmentRequest); i {
 			case 0:
 				return &v.state
@@ -2523,7 +2523,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[6].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[6].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*QueryAssignmentResponse); i {
 			case 0:
 				return &v.state
@@ -2535,7 +2535,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[7].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[7].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*ReceiveMessageRequest); i {
 			case 0:
 				return &v.state
@@ -2547,7 +2547,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[8].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[8].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*ReceiveMessageResponse); i {
 			case 0:
 				return &v.state
@@ -2559,7 +2559,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[9].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[9].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*AckMessageEntry); i {
 			case 0:
 				return &v.state
@@ -2571,7 +2571,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[10].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[10].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*AckMessageRequest); i {
 			case 0:
 				return &v.state
@@ -2583,7 +2583,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[11].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[11].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*AckMessageResultEntry); i {
 			case 0:
 				return &v.state
@@ -2595,7 +2595,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[12].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[12].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*AckMessageResponse); i {
 			case 0:
 				return &v.state
@@ -2607,7 +2607,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[13].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[13].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*ForwardMessageToDeadLetterQueueRequest); i {
 			case 0:
 				return &v.state
@@ -2619,7 +2619,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[14].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[14].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*ForwardMessageToDeadLetterQueueResponse); i {
 			case 0:
 				return &v.state
@@ -2631,7 +2631,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[15].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[15].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*HeartbeatRequest); i {
 			case 0:
 				return &v.state
@@ -2643,7 +2643,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[16].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[16].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*HeartbeatResponse); i {
 			case 0:
 				return &v.state
@@ -2655,7 +2655,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[17].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[17].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*EndTransactionRequest); i {
 			case 0:
 				return &v.state
@@ -2667,7 +2667,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[18].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[18].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*EndTransactionResponse); i {
 			case 0:
 				return &v.state
@@ -2679,7 +2679,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[19].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[19].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*PrintThreadStackTraceCommand); i {
 			case 0:
 				return &v.state
@@ -2691,7 +2691,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[20].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[20].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*ThreadStackTrace); i {
 			case 0:
 				return &v.state
@@ -2703,7 +2703,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[21].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[21].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*VerifyMessageCommand); i {
 			case 0:
 				return &v.state
@@ -2715,7 +2715,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[22].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[22].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*VerifyMessageResult); i {
 			case 0:
 				return &v.state
@@ -2727,7 +2727,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[23].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[23].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*RecoverOrphanedTransactionCommand); i {
 			case 0:
 				return &v.state
@@ -2739,7 +2739,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[24].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[24].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*TelemetryCommand); i {
 			case 0:
 				return &v.state
@@ -2751,7 +2751,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[25].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[25].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*NotifyClientTerminationRequest); i {
 			case 0:
 				return &v.state
@@ -2763,7 +2763,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[26].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[26].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*NotifyClientTerminationResponse); i {
 			case 0:
 				return &v.state
@@ -2775,7 +2775,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[27].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[27].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*ChangeInvisibleDurationRequest); i {
 			case 0:
 				return &v.state
@@ -2787,7 +2787,7 @@ func file_service_proto_init() {
 				return nil
 			}
 		}
-		file_service_proto_msgTypes[28].Exporter = func(v interface{}, i int) interface{} {
+		file_rocketmq_service_proto_msgTypes[28].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*ChangeInvisibleDurationResponse); i {
 			case 0:
 				return &v.state
@@ -2800,15 +2800,15 @@ func file_service_proto_init() {
 			}
 		}
 	}
-	file_service_proto_msgTypes[7].OneofWrappers = []interface{}{}
-	file_service_proto_msgTypes[8].OneofWrappers = []interface{}{
+	file_rocketmq_service_proto_msgTypes[7].OneofWrappers = []interface{}{}
+	file_rocketmq_service_proto_msgTypes[8].OneofWrappers = []interface{}{
 		(*ReceiveMessageResponse_Status)(nil),
 		(*ReceiveMessageResponse_Message)(nil),
 		(*ReceiveMessageResponse_DeliveryTimestamp)(nil),
 	}
-	file_service_proto_msgTypes[15].OneofWrappers = []interface{}{}
-	file_service_proto_msgTypes[20].OneofWrappers = []interface{}{}
-	file_service_proto_msgTypes[24].OneofWrappers = []interface{}{
+	file_rocketmq_service_proto_msgTypes[15].OneofWrappers = []interface{}{}
+	file_rocketmq_service_proto_msgTypes[20].OneofWrappers = []interface{}{}
+	file_rocketmq_service_proto_msgTypes[24].OneofWrappers = []interface{}{
 		(*TelemetryCommand_Settings)(nil),
 		(*TelemetryCommand_ThreadStackTrace)(nil),
 		(*TelemetryCommand_VerifyMessageResult)(nil),
@@ -2816,23 +2816,23 @@ func file_service_proto_init() {
 		(*TelemetryCommand_PrintThreadStackTraceCommand)(nil),
 		(*TelemetryCommand_VerifyMessageCommand)(nil),
 	}
-	file_service_proto_msgTypes[25].OneofWrappers = []interface{}{}
+	file_rocketmq_service_proto_msgTypes[25].OneofWrappers = []interface{}{}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: file_service_proto_rawDesc,
+			RawDescriptor: file_rocketmq_service_proto_rawDesc,
 			NumEnums:      0,
 			NumMessages:   29,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_service_proto_goTypes,
-		DependencyIndexes: file_service_proto_depIdxs,
-		MessageInfos:      file_service_proto_msgTypes,
+		GoTypes:           file_rocketmq_service_proto_goTypes,
+		DependencyIndexes: file_rocketmq_service_proto_depIdxs,
+		MessageInfos:      file_rocketmq_service_proto_msgTypes,
 	}.Build()
-	File_service_proto = out.File
-	file_service_proto_rawDesc = nil
-	file_service_proto_goTypes = nil
-	file_service_proto_depIdxs = nil
+	File_rocketmq_service_proto = out.File
+	file_rocketmq_service_proto_rawDesc = nil
+	file_rocketmq_service_proto_goTypes = nil
+	file_rocketmq_service_proto_depIdxs = nil
 }
